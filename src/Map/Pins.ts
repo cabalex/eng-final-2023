@@ -1,6 +1,9 @@
 import rivendell from "../assets/rivendell.png";
 import laketown from "../assets/laketown.png";
 import forsakeninn from "../assets/forsakeninn.jpg";
+import goblincaves from "../assets/goblin_caves.png";
+import lonelymountain from "../assets/lonely_mountain.png";
+import mirkwood from "../assets/mirkwood.png";
 import MapMarkerOutline from "svelte-material-icons/MapMarkerOutline.svelte";
 import Wheelchair from "svelte-material-icons/Wheelchair.svelte";
 import SproutOutline from "svelte-material-icons/SproutOutline.svelte";
@@ -50,9 +53,9 @@ const pins: Pin[] = [
         coords: [7611, 1155],
         name: "Lonely Mountain",
         type: "Mountain peak",
+        image: lonelymountain,
         description: "Foreboding mountain previously home to the terrorizing dragon Smaug.",
         bilbosJourney: "Bilbo's final struggle at the Lonely Mountain just before meeting Smaug is an important battle, not against a dragon, but against his own sense of self. Despite overcoming all the previous hurdles in Mirkwood and the Wood-elves on his own, going straight to the dragon is a risk far greater than any he has taken before. He is forced to confront his own fears and doubts, and in doing so, he finds the courage to face the dragon. It is no wonder, then, that Tolkien writes that \"[g]oing on from there was the bravest thing he [Bilbo] ever did. The tremendous things that happened afterwards were as nothing compared to it\" (Tolkien 197). This place represents the final stop in Bilbo's journey, where he learns to become a true hero.",
-        image: rivendell,
         attributes: [
             {
                 value: "Wheelchair accessible",
@@ -131,6 +134,7 @@ const pins: Pin[] = [
         type: "Forest",
         description: "A gloomy and thick forest populated with strange and mysterious creatures.",
         bilbosJourney: "This part of Bilbo's Journey is important because it is finally where he learns to defeat monsters and rescue his party on his own. Before entering Mirkwood, Bilbo is still relatively timid and scared of the journey ahead. During his travels into the forest, however, he is forced to fight as the dwarves are kidnapped by spiders. After defeating one spider by himself, he feels immense pride and confidence in his abilities, feeling \"much fiercer and bolder in spite of an empty stomach\" (Tolkien 144). He then goes on to rescue the dwarves from the spiders and the elves, and he is able to do so because of this newfound confidence. It teaches him that he does not need to rely on others to save him, and that he is capable of doing things on his own.",
+        image: mirkwood,
         attributes: [],
         ratings: [
             {
@@ -154,6 +158,7 @@ const pins: Pin[] = [
         name: "Goblin Caves",
         type: "Cave System",
         description: "Caves in the Misty Mountains inhabited by goblins. Travelers are advised to avoid this area for their own safety.",
+        image: goblincaves,
         bilbosJourney: "The goblin caves is where Bilbo first tricks Gollum and finds the ring; but to accomplish such a task, he needed to use his quick thinking skills and intelligence in a way that he has never done before. To get out, Bilbo needed to beat Gollum at solving riddles. While he initially wins on accident, he learns to capitalize on such weaknesses for the benefit of himself and his party. Only by overcoming Gollum is he able to escape the goblin caves alive. His intelligence is later used in the final \"battle\" against Smaug, as Bilbo uses his riddles to distract the dragon into revealing his weakspot (Tolkien 205).",
         attributes: [],
         ratings: []
